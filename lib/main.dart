@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tasksheet_api_flutter_5_4_2/bitcoin_price_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,11 +11,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+      home: BitcoinPriceScreen(),
     );
   }
 }
